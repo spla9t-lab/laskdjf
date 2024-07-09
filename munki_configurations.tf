@@ -1,5 +1,5 @@
 resource "zentral_munki_configuration" "default" {
-  name = "Default"
+  name = "Default 🐒"
 }
 
 resource "zentral_munki_enrollment" "default" {
