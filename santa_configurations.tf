@@ -17,3 +17,11 @@ resource "zentral_santa_rule" "teamid-macpaw" {
   custom_message    = "No MacPaw apps are allowed!!!"
   description       = "Block MacPaw apps, mostly for demo purposes"
 }
+resource "zentral_santa_rule" "signingid-yes" {
+  configuration_id  = zentral_santa_configuration.default.id
+  policy            = "BLOCKLIST"
+  target_type       = "SIGNINGID"
+  target_identifier = "platform:com.apple.yes"
+  custom_message    = "No Yes!"
+  description       = "Say no to yes!"
+}
