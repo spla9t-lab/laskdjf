@@ -32,7 +32,7 @@
 	<string>Created: 2024-07-09
 Configuration settings for the com.apple.security.firewall preference domain.</string>
 	<key>PayloadDisplayName</key>
-	<string>[Yolo] com.apple.security.firewall settings</string>
+	<string>Apple Firewall Settings</string>
 	<key>PayloadIdentifier</key>
 	<string>com.apple.security.firewall.Yolo</string>
 	<key>PayloadOrganization</key>
